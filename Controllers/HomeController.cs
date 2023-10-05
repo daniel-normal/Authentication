@@ -18,10 +18,26 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Customers()
+    {
+        return View();
+    }
+    
+    public IActionResult Products()
+    {
+        return View();
+    }
+    
+    public IActionResult Sales()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
     }
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
